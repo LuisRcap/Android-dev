@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Examen 1</string>
+    <string name="tv1">Anchura X = </string>
+    <string name="tv2">Largo X =</string>
+    <string name="tv3">Altura X =</string>
+    <string name="etx">X</string>
+    <string name="ety">Y</string>
+    <string name="etz">Z</string>
+    <string name="tvy">Y =</string>
+    <string name="tvz">Z =</string>
+</resources>

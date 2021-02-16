@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/xNombre"
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:paddingTop="15px"
+        android:textAlignment="center"
+        android:hint="Nombre(s)"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/xApellido"
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:paddingTop="15px"
+        android:textAlignment="center"
+        android:hint="Apellido"
+        android:layout_marginLeft="20px"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@id/xNombre"/>
+
+    <Button
+        android:id="@+id/xbtnNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/nombres"
+        android:layout_margin="20px"
+        app:layout_constraintTop_toBottomOf="@id/xNombre"
+        app:layout_constraintStart_toStartOf="@id/xb"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/xa"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_marginTop="200px"
+        android:paddingTop="15px"
+        android:textAlignment="center"
+        android:hint="Digite a"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/xbtnNombres"/>
+
+    <EditText
+        android:id="@+id/xb"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_marginTop="200px"
+        android:paddingTop="15px"
+        android:layout_marginStart="150px"
+        android:textAlignment="center"
+        android:hint="Digite b"
+        android:layout_marginLeft="20px"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@id/xa"
+        app:layout_constraintTop_toBottomOf="@id/xbtnNombres"/>
+
+    <EditText
+        android:id="@+id/xc"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_marginTop="200px"
+        android:paddingTop="15px"
+        android:layout_marginStart="150px"
+        android:textAlignment="center"
+        android:hint="Digite c"
+        android:layout_marginLeft="20px"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@id/xb"
+        app:layout_constraintTop_toBottomOf="@id/xbtnNombres"/>
+
+    <Button
+        android:id="@+id/xbtnChicharronera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/chicharronera"
+        android:layout_marginTop="50px"
+        app:layout_constraintTop_toBottomOf="@id/xa"
+        app:layout_constraintStart_toStartOf="@id/xb"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

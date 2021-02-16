@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="top"
+            android:text="@string/hello"
+            android:textColor="@color/textColor2" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="center"
+            android:src="@drawable/afinador" />
+        <Button
+            android:id="@+id/cuerdaE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/e1" >
+        </Button>
+        <Button
+            android:id="@+id/cuerdaA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/a" >
+        </Button>
+        <Button
+            android:id="@+id/cuerdaD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/d" >
+        </Button>
+        <Button
+            android:id="@+id/cuerdaG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/g" >
+        </Button>
+        <Button
+            android:id="@+id/cuerdaB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/b" >
+        </Button>
+            <Button
+                android:id="@+id/cuerdaE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/e2" >
+            </Button>
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/textColor"
+                android:textStyle="bold" >
+            </TextView>
+            <Button
+                android:id="@+id/salir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/salir" >
+            </Button>
+    </LinearLayout> </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

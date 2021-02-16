@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Afinador de Guitarra</string>
+    <string name="hello">Digitar una cuerda</string>
+    <string name="e1">Cuerda E</string>
+    <string name="a">Cuerda A</string>
+    <string name="d">Cuerda D</string>
+    <string name="g">Cuerda G</string>
+    <string name="b">Cuerda B</string>
+    <string name="e2">Cuerda E</string>
+    <string name="salir">Salir</string>
+    <string name="imagen">Guitar Image</string>
+</resources>

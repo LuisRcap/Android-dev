@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Web VIew</string>
+    <string name="action_settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="home">Home</string>
+    <string name="forward">Forward</string>
+    <string name="internet">URL: </string>
+    <string name="url">URL</string>
+
+</resources>

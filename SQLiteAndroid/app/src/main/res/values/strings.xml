@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SQLite Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="snom">Nombre:</string>
+    <string name="sid">ID:</string>
+    <string name="ins">Alta</string>
+    <string name="cons">Lista</string>
+    <string name="act">Cambiar</string>
+    <string name="borrar">Borrar</string>
+    <string name="cambio">Indique el nuevo nombre a actualizar</string>
+</resources>

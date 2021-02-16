@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/xll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity" >
+
+        <TextView
+            android:id="@+id/xtvI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sid" />
+        <EditText
+            android:id="@+id/xetI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+        <TextView
+            android:id="@+id/xtvN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/snom" />
+        <EditText
+            android:id="@+id/xetN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+        <Button
+            android:id="@+id/xbnA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ins" />
+        <Button
+            android:id="@+id/xbnL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cons" />
+
+        <Button
+            android:id="@+id/xbnC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/act"/>
+
+        <Button
+            android:id="@+id/xbnB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/borrar" />
+
+        <TextView
+            android:id="@+id/xtvL"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

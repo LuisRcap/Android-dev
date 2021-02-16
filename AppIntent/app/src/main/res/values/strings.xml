@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppIntent</string>
+    <string name="escribir">Escribir</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="nombres">Ingresar Nombres</string>
+    <string name="chicharronera">Calc. Ec.</string>
+</resources>
